@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fredoka:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fredoka:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+</head>
+
+<body>
+    <div class="header">
+        <img src="./images/logo.svg" alt="logo">
+
+        <div class="header__elements">
+            <p>Discover</p>
+            <p>Trips</p>
+            <p>Review</p>
+            <p>Flights</p>
+        </div>
+
+
+        <div class="header__icons">
+            <div class="header__icons__s1">
+                <i class="fa-solid fa-earth-asia"></i>
+                <p>|</p>
+                <h4>INR</h4>
+            </div>
+            <button class="signin">Sign in</button>
+        </div>
+
+        <div class="menu">
+            <i class="fa-solid fa-bars" style="color: #000000;"></i>
+        </div>
+
+    </div>
+
+    <div class="whereto">
+        <h1>Where to?</h1>
+    </div>
+
+    <div class="navbar-container">
+        <div class="navbar">
+            <div class="navbar__section">
+                <i class="fi fi-rs-house-blank"></i>
+                <p>Search All</p>
+            </div>
+            <div class="navbar__section">
+                <i class="fi fi-tr-bed-alt"></i>
+                <p>Hotels</p>
+            </div>
+            <div class="navbar__section">
+                <i class="fi fi-rr-note-sticky"></i>
+                <p>Things to do</p>
+            </div>
+            <div class="navbar__section">
+                <i class="fi fi-rr-restaurant"></i>
+                <p>Restaurants</p>
+            </div>
+
+            <div class="navbar__section">
+                <i class="fi fi-bs-home-heart"></i>
+                <p>Holiday Homes</p>
+            </div>
+        </div>
+    </div>
+    <div class="searchbar">
+        <div class="searchbar__input">
+            <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            <input type="text" placeholder="Places to go, things to do, hotels..." />
+            <button class="searchbar__input__btn">Search</button>
+        </div>
+        <button class="searchbar__btn">Search</button>
+    </div>
+
+
+    <!-- <div class="ai-container">
+            <img class="ai-container__image" src="./images/second.png" alt="">
+    </div> -->
+
+    <div class="award-container">
+        <div class="award-container__header">
+            <h2>2024’s award-winning shores</h2>
+            <p>Travellers’ Choice Awards Best of the Best Beaches</p>
+        </div>
+
+        <div class="award-container__sea">
+            <div class="sea-container">
+                <img src="./images/sea1.jpeg" alt="">
+                <h1>Asia Beaches</h1>
+            </div>
+            <div class="sea-container">
+                <img src="./images/sea2.jpeg" alt="">
+                <h1>Caribbean Beaches</h1>
+            </div>
+            <div class="sea-container">
+                <img src="./images/sea3.jpeg" alt="">
+                <h1>South Pacific Beaches</h1>
+            </div>
+            <div class="sea-container">
+                <img src="./images/sea4.jpeg" alt="">
+                <h1>Europe Beaches</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="recent-container">
+        <h1>Your recent searches</h1>
+        <div class="recent__search">
+            <div class="recent__search__s">
+                <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                <p>Things to do in Vagamon</p>
+            </div>
+            <div class="recent__search__s">
+                <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                <p>Singapore</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="experience">
+        <h1 class="experience__title">Top experiences on Tripadvisor</h1>
+        <p class="experience__desc">The best tours, activities and tickets</p>
+        <div class="experience-container">
+            <div class="experience__header">
+                <img src="./images/exp1.jpeg" alt="" id="exp1">
+                <h1>Ubud Tour - Best of Ubud - All Inclusive</h1>
+                <div class="experience__rating">
+                    <h1>•••••</h1>
+                    <p>9,075</p>
+                </div>
+                <p>from ₹7,646 per adult</p>
+            </div>
+
+            <div class="experience__header">
+                <img src="./images/exp2.jpeg" alt="" id="exp1">
+                <h1>Tokyo 6hr Private Tour with Government-Licensed Guide</h1>
+                <div class="experience__rating">
+                    <h1>•••••</h1>
+                    <p>1,310</p>
+                </div>
+                <p>from ₹11,884 per adult</p>
+            </div>
+
+            <div class="experience__header">
+                <img src="./images/exp3.jpeg" alt="" id="exp1">
+                <h1>Lion City Bike Tour of Singapore</h1>
+                <div class="experience__rating">
+                    <h1>•••••</h1>
+                    <p>4,120</p>
+                </div>
+                <p>from ₹5,401 per adult</p>
+            </div>
+
+            <div class="experience__header">
+                <img src="./images/exp4.jpeg" alt="" id="exp1">
+                <h1>Private Taj Mahal Tour from Delhi by Car</h1>
+                <div class="experience__rating">
+                    <h1>•••••</h1>
+                    <p>3,044</p>
+                </div>
+                <p>from ₹425 per adult</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="award-container">
+        <div class="award__main">
+            <div class="award-container__header">
+                <h2>Top destinations for your next holiday</h2>
+                <p>Here's where your fellow travellers are headed</p>
+            </div>
+
+            <div class="award-container__sea">
+                <div class="sea-container">
+                    <img src="./images/d1.jpeg" alt="">
+                    <h1>Kyoto, Japan</h1>
+                </div>
+                <div class="sea-container">
+                    <img src="./images/d2.jpeg" alt="">
+                    <h1>Hanoi, Vietnam</h1>
+                </div>
+                <div class="sea-container">
+                    <img src="./images/d3.jpeg" alt="">
+                    <h1>Phuket, Thailand</h1>
+                </div>
+                <div class="sea-container">
+                    <img src="./images/d4.jpeg" alt="">
+                    <h1>Singapore</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="video-container">
+        <div class="video-container__video">
+            <video controls muted autoplay="false">
+                <source src="./images/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-container__footer">
+            <h1>Watch The Wanderer Season 1 on Amazon Prime Video</h1>
+            <p>Follow authentic travellers as they visit unknown destinations to write their own travel guide</p>
+        </div>
+    </div>
+
+
+    <div class="winner">
+        <div class="winner__header">
+            <img src="./images/logo2.svg" alt="">
+            <h1>Travellers' Choice<br>Awards Best of<br> the Best</h1>
+            <p>Among our top 1% of places, stays, eats,<br> and experiences—decided by you.</p>
+        </div>
+        <div class="winner__image">
+            <img src="./images/img1.png" alt="" id="image1">
+        </div>
+    </div>
+
+    <!-- Footer MQ -->
+
+    <div class="footer">
+        <div class="footer__elements">
+            <p>+</p>
+            <p>About Tripadvisor</p>
+        </div>
+        <div class="footer__elements">
+            <p>+</p>
+            <p>Explore</p>
+        </div>
+        <div class="footer__elements">
+            <p>+</p>
+            <p>Do Business With Us</p>
+        </div>
+        <div class="footer__currency">
+            <select>
+                <option value="INR">₹ INR</option>
+            </select>
+        </div>
+        <div class="footer__country">
+            <select>
+                <option value="India">India</option>
+            </select>
+        </div>
+        <div class="footer-original__s2">
+            <img src="./images/logo3.svg" alt="logo">
+            <div class="footer-original__s2__copywrite">
+                <p>© 2024 Tripadvisor LLC All rights reserved.</p>
+                <div class="footer-original__s2__words">
+                    <p>Terms of Use</p>
+                    <p>Privacy and Cookies Statement</p>
+                    <p>Cookie consent</p>
+                    <p>Site Map</p>
+                    <p>How the site works</p>
+                    <p>Contact us</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__socialmedia">
+            <i class="fi fi-brands-facebook"></i>
+            <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+            <i class="fa-brands fa-pinterest" style="color: #000205;"></i>
+            <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+        </div>
+    </div>
+
+
+    <!-- Laptop View -->
+
+    <div class="footer-original">
+        <div class="footer-original__rows">
+            <div class="footer-original__row1">
+                <p>About Tripadvisor</p>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Resources and Policies</p>
+                <p>Careers</p>
+                <p>Trust & Safety</p>
+                <p>Contact us</p>
+                <p>Accessibility Statement</p>
+            </div>
+
+            <div class="footer-original__row2">
+                <p>Explore</p>
+                <p>Write a review</p>
+                <p>Add a Place</p>
+                <p>Join</p>
+                <p>Travellers' Choice</p>
+                <p>GreenLeaders</p>
+                <p>Help Centre</p>
+                <p>Travel Articles</p>
+            </div>
+        </div>
+        <div class="footer-original__s2">
+            <div class="footer-original__s2__one">
+                <img src="./images/logo3.svg" alt="logo">
+                <div class="footer-original__s2__copywrite">
+                    <p>© 2024 Tripadvisor LLC All rights reserved.</p>
+                    <div class="footer-original__s2__words">
+                        <p>Terms of Use</p>
+                        <p>Privacy and Cookies Statement</p>
+                        <p>Cookie consent</p>
+                        <p>Site Map</p>
+                        <p>How the site works</p>
+                        <p>Contact us</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-original__s2__two">
+                <i class="fi fi-brands-facebook"></i>
+                <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                <i class="fa-brands fa-pinterest" style="color: #000205;"></i>
+                <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
